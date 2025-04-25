@@ -128,8 +128,9 @@ export default function Home() {
           </div>
 
           <div className="rounded-lg bg-white p-8 shadow-sm">
+          <h2 className="mb-6 text-center text-2xl font-light text-indigo-800">結びに</h2>
+          <div className="mx-auto mb-6 h-px w-16 bg-slate-200"></div>
             <p className="mb-6">
-              以上
               あなたがオブリビオンの盗薬に成功したことによって、神永はクロノミライメディカルの告発に乗り出しました。しかし、政財界にまで根を張り始めた巨大企業であるクロノミライメディカルを打ち倒すまでには至らないかもしれません。しかし、池袋PARCOの地下に現れたセンターが撤去されるのは間違いないでしょう。これ以上、昏睡状態となる人々は生まれることはなくなります。全てはあなたの注意深い洞察力と判断の賜物です。
             </p>
             <p className="mb-6">
