@@ -27,5 +27,7 @@ export default function RootLayout({
 }
 
 export const metadata = {
-      generator: 'v0.dev'
-    };
+  title: '盗薬次楽 解説',
+  robots: 'noindex, nofollow',
+  generator: 'v0.dev'
+};
