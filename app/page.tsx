@@ -341,7 +341,7 @@ export default function Home() {
               あなたが自身の立場をしっかりと表明し、協力を求めれば、非常に重要な情報を教えてくれることさえあるのでした。
             </p>
 
-            <h3 className="mb-4 text-xl text-indigo-700">清水　ブラックバイトギャンブラー</h3>１
+            <h3 className="mb-4 text-xl text-indigo-700">清水　ブラックバイトギャンブラー</h3>
             <p className="mb-4">
               あなたとほぼ同じ──『金が欲しい』という動機で働いているベテラン闇バイターです。
             </p>
