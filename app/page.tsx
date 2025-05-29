@@ -124,7 +124,7 @@ export default function Home() {
                   alt="診療カルテの画像"
                   width={400}
                   height={300}
-                  className="mt-4 rounded-lg w-full max-w-sm mx-auto"
+                  className="my-6 rounded-lg w-full max-w-sm mx-auto"
                 />
               </li>
               <li>
@@ -143,7 +143,7 @@ export default function Home() {
               alt="USBメモリ型盗聴器の画像"
               width={400}
               height={300}
-              className="mt-4 rounded-lg w-full max-w-sm mx-auto"
+              className="my-6 rounded-lg w-full max-w-sm mx-auto"
             />
             <p className="mb-4">
               <strong>3. USBメモリを持って、大黒から報酬を受け取る前に、大黒の口から「薬を作った」旨の発言を引き出す。</strong>
@@ -181,14 +181,14 @@ export default function Home() {
                 alt="大黒の写真1"
                 width={400}
                 height={300}
-                className="rounded-lg w-full md:w-1/2"
+                className="my-6 rounded-lg w-full md:w-1/2"
               />
               <img
                 src="/images/_DSC3475.jpg"
                 alt="大黒の写真2"
                 width={400}
                 height={300}
-                className="rounded-lg w-full md:w-1/2"
+                className="my-6 rounded-lg w-full md:w-1/2"
               />
             </div>
             <p className="mb-4">
@@ -243,40 +243,35 @@ export default function Home() {
                 alt="斉藤医師の写真"
                 width={400}
                 height={300}
-                className="rounded-lg w-full md:w-1/2 mx-auto"
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
-            <div className="h-8"></div>
             <p className="mb-4">
               治験の内容については仕事と割り切っていて、倫理的側面については立ち入るつもりはない実用主義者です。良くも悪くも自分以外の事物に無関心であり、人あたりの良さは本人なりの処世術です。
             </p>
             <p className="mb-4">
               プレイヤーが薬の影響を受けることについては気の毒に思いつつも、罪悪感はありません。 作中キャラクターの中では最も虚無的な性格で、趣味も恋人もなく、ただ、辛いものが好きという設定だけがあります。
             </p>
-            <div className="h-8"></div>
             <img
               src="/images/_DSC1927.jpg"
               alt="斉藤医師の写真"
               width={400}
               height={300}
-              className="rounded-lg w-full md:w-1/2 mx-auto"
+              className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
             />
-            <div className="h-8"></div>
             <p className="mb-4">
               辛いものについての話題を出せば、話に乗ってきてくれたかもしれません。
             </p>
             <p className="mb-4">
               カルテを折っていた姿が見られたかもしれません。斉藤は大事な書類を二つ折りにして内側が見えないようにする癖があり、カルテに限らず、裏のスペースにあった書類も幾つかは二つ折りにされています。ややメタ的な示唆ではありますが、斉藤によって二つ折りにされていた紙だけがあなたにとって進行上重要な書類なのでした。
             </p>
-            <div className="h-8"></div>
             <img
               src="/images/_DSC1966.jpg"
               alt="斉藤医師が書類を折る様子"
               width={400}
               height={300}
-              className="rounded-lg w-full md:w-1/2 mx-auto"
+              className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
             />
-            <div className="h-8"></div>
 
             <h3 className="mb-4 text-xl text-indigo-700">神永　陰謀を追う記者</h3>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
@@ -285,10 +280,9 @@ export default function Home() {
                 alt="神永記者の写真"
                 width={400}
                 height={300}
-                className="rounded-lg w-full md:w-1/2 mx-auto"
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
-            <div className="h-8"></div>
             <p className="mb-4">
               記者仲間が昏睡事件の被害者になったことで、クロノミライメディカルの調査に乗り出したジャーナリストです。
             </p>
@@ -312,7 +306,7 @@ export default function Home() {
                 alt="佐藤医師の写真"
                 width={400}
                 height={300}
-                className="rounded-lg w-full md:w-1/2 mx-auto"
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
             <p className="mb-4">
@@ -324,14 +318,14 @@ export default function Home() {
                 alt="佐藤医師の写真"
                 width={400}
                 height={300}
-                className="rounded-lg w-full md:w-1/2 mx-auto"
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
               />
               <img
                 src="/images/_DSC3850.jpg"
                 alt="佐藤医師の写真"
                 width={400}
                 height={300}
-                className="rounded-lg w-full md:w-1/2 mx-auto"
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
             <p className="mb-4">
@@ -381,7 +375,7 @@ export default function Home() {
                 alt="オブリビオンの画像"
                 width={400}
                 height={300}
-                className="rounded-lg w-full md:w-1/2 mx-auto"
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
             <p className="mb-4">
