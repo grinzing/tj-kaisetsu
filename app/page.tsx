@@ -44,7 +44,7 @@ export default function Home() {
               エンディング後『解説ページ』に到達した方を除き、参加者の約70％の参加者の皆様は物語の真相に確信を持てないまま物語を終えていることと思います。
             </p>
             <p className="mb-4">
-              そこで本ページでは、物語の解説として、本作に登場した団体や登場人物たちの背景についてご紹介いたします。大きなネタバレを含みますので、治験の再募集への応募（再演の可能性がわずかにございます ）を検討されている方は、ご注意ください。
+              そこで本ページでは、物語の解説として、本作に登場した団体や登場人物たちの背景についてご紹介いたします。大きなネタバレを含みますので、治験の再募集への応募（<span className="font-bold">再演の可能性がございます</span>）を検討されている方は、ご注意ください。
             </p>
           </div>
 
@@ -536,7 +536,7 @@ export default function Home() {
           <div className="rounded-lg bg-white p-8 shadow-sm">
             <h2 className="mb-6 text-center text-2xl font-light text-indigo-800">SNS投稿について</h2>
             <div className="mx-auto mb-6 h-px w-16 bg-slate-200"></div>
-            <p className="mb-4">
+            <p className="mb-4 font-bold">
               本公演は再演の可能性がございます。
             </p>
             <p className="mb-4">
