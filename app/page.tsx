@@ -81,7 +81,7 @@ export default function Home() {
                 alt="池袋連続昏睡事件の新聞記事"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full max-w-sm mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full max-w-sm mx-auto"
               />
             </p>
             <p className="mb-4">
@@ -106,7 +106,7 @@ export default function Home() {
               alt="エンディングルート解説画像"
               width={700}
               height={400}
-              className="my-6 rounded-lg w-full max-w-3xl mx-auto"
+              className="mt-4 mb-4 rounded-lg w-full max-w-3xl mx-auto"
             />
             <p className="mb-4">
               では、どのようにすれば、神永の告発を成功させられるのか。条件は次のとおりです。
@@ -119,12 +119,18 @@ export default function Home() {
               alt="LINEで提示された物品の画像"
               width={400}
               height={300}
-              className="my-6 rounded-lg w-full max-w-sm mx-auto"
+              className="mt-4 mb-4 rounded-lg w-full max-w-sm mx-auto"
             />
             <ul className="mb-4 list-inside list-disc space-y-2">
               <li>
                 薬の名前などが記載された詳細な書類： 剤名、剤型などが記された紙です。
-                （画像データ）
+                <ZoomableImage
+                  src="/images/oblivion_paper.jpg"
+                  alt="薬の詳細書類の画像"
+                  width={400}
+                  height={300}
+                  className="mt-4 mb-4 rounded-lg w-full max-w-sm mx-auto"
+                />
               </li>
               <li>
                 あなたの診療カルテ（２枚）： 当日の日付と、１週間前の日付のものが重ねておいてありました。2枚合わせて盗む必要があります。
@@ -133,7 +139,7 @@ export default function Home() {
                   alt="診療カルテの画像"
                   width={400}
                   height={300}
-                  className="my-6 rounded-lg w-full max-w-sm mx-auto"
+                  className="mt-4 mb-4 rounded-lg w-full max-w-sm mx-auto"
                 />
               </li>
               <li>
@@ -152,7 +158,7 @@ export default function Home() {
               alt="USBメモリ型盗聴器の画像"
               width={400}
               height={300}
-              className="my-6 rounded-lg w-full max-w-sm mx-auto"
+              className="mt-4 mb-4 rounded-lg w-full max-w-sm mx-auto"
             />
             <p className="mb-4">
               <strong>3. USBメモリを持って、大黒から報酬を受け取る前に、大黒の口から「薬を作った」旨の発言を引き出す。</strong>
@@ -168,14 +174,14 @@ export default function Home() {
               alt="小切手の画像"
               width={400}
               height={300}
-              className="my-6 rounded-lg w-full max-w-sm mx-auto"
+              className="mt-4 mb-4 rounded-lg w-full max-w-sm mx-auto"
             />
             <p className="mb-4">
               それぞれのエンディングは『進行管理アカウント』に以下のメッセージを送ることで確認いただけます。気になる方はぜひご覧ください。
             </p>
-            <p className="mb-4">盗薬成功ルート：　やれることはやった</p>
-            <p className="mb-4">盗薬失敗、真相到達ルート：　封筒を開いた</p>
-            <p className="mb-4">盗薬失敗：　報酬は受け取った</p>
+            <p className="mb-4">盗薬成功ルート : やれることはやった</p>
+            <p className="mb-4">盗薬失敗、真相到達ルート : 封筒を開いた</p>
+            <p className="mb-4">盗薬失敗 : 報酬を受け取った</p>
           </div>
 
           <div className="rounded-lg bg-white p-8 shadow-sm">
@@ -197,14 +203,14 @@ export default function Home() {
                 alt="大黒の写真1"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2"
               />
               <ZoomableImage
                 src="/images/_DSC3475.jpg"
                 alt="大黒の写真2"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2"
               />
             </div>
             <p className="mb-4">
@@ -259,7 +265,7 @@ export default function Home() {
                 alt="斉藤医師の写真"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
             <p className="mb-4">
@@ -273,7 +279,7 @@ export default function Home() {
               alt="斉藤医師の写真"
               width={400}
               height={300}
-              className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+              className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
             />
             <p className="mb-4">
               辛いものについての話題を出せば、話に乗ってきてくれたかもしれません。
@@ -286,7 +292,7 @@ export default function Home() {
               alt="斉藤医師が書類を折る様子"
               width={400}
               height={300}
-              className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+              className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
             />
 
             <h3 className="mb-4 text-xl text-indigo-700">神永 -陰謀を追う記者-</h3>
@@ -296,7 +302,7 @@ export default function Home() {
                 alt="神永記者の写真"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
             <p className="mb-4">
@@ -320,14 +326,14 @@ export default function Home() {
                 alt="神永記者の手帳"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
               <ZoomableImage
                 src="/images/緑色.jpg"
                 alt="緑色の画像"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
 
@@ -340,7 +346,7 @@ export default function Home() {
                 alt="佐藤医師の写真"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
             <p className="mb-4">
@@ -352,7 +358,7 @@ export default function Home() {
                 alt="佐藤医師の写真"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
             <p className="mb-4">
@@ -363,7 +369,7 @@ export default function Home() {
                 alt="佐藤医師の写真"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
             <p className="mb-4">
               あなたが自身の立場をしっかりと表明し、協力を求めれば、非常に重要な情報を教えてくれることさえあるのでした。
@@ -376,7 +382,7 @@ export default function Home() {
                 alt="清水の写真"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
             <p className="mb-4">
@@ -409,7 +415,7 @@ export default function Home() {
                 alt="清水の写真"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
           </div>
@@ -427,7 +433,7 @@ export default function Home() {
                 alt="オブリビオンの画像"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
             <p className="mb-4">
@@ -461,7 +467,7 @@ export default function Home() {
                 alt="ツカサミグサの画像"
                 width={400}
                 height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+                className="mt-4 mb-4 rounded-lg w-full md:w-1/2 mx-auto"
               />
             </div>
             <p className="mb-4">
