@@ -455,6 +455,15 @@ export default function Home() {
               （ペットボトルを渡した際の液体の残量はエンディングに影響しません。わずかについた水滴からでも成分は検出される、としています）
             </p>
             <h3 className="mb-4 text-xl text-indigo-700">・ツカサミグサ（司巫草）</h3>
+            <div className="mb-6">
+              <ZoomableImage
+                src="/images/tsukasamigusa.png"
+                alt="ツカサミグサの画像"
+                width={400}
+                height={300}
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+              />
+            </div>
             <p className="mb-4">
               オブリビオンの原料である植物です。
             </p>
