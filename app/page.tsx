@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import ZoomableImage from "@/components/ZoomableImage"
 
 export const metadata: Metadata = {
   title: "盗薬次楽 - エンディング解説",
@@ -75,7 +76,7 @@ export default function Home() {
               （公演中にたびたび言及された『池袋連続昏睡事件』の真相は、この治験に複数回参加した被験者たちが副作用により昏睡したことに他なりません）
             </p>
             <p className="mb-4">
-              <img
+              <ZoomableImage
                 src="/images/新聞記事.png"
                 alt="池袋連続昏睡事件の新聞記事"
                 width={400}
@@ -100,7 +101,7 @@ export default function Home() {
             <p className="mb-4">
               さて、この物語のエンディングは３種類ございます。
             </p>
-            <img
+            <ZoomableImage
               src="/images/route_usui.png"
               alt="エンディングルート解説画像"
               width={700}
@@ -113,6 +114,13 @@ export default function Home() {
             <p className="mb-4">
               <strong>1. センター裏探索の際にLINEで提示された全ての物品を、神永へと手渡す。</strong>
             </p>
+            <ZoomableImage
+              src="/images/LINE画像_新.jpg"
+              alt="LINEで提示された物品の画像"
+              width={400}
+              height={300}
+              className="my-6 rounded-lg w-full max-w-sm mx-auto"
+            />
             <ul className="mb-4 list-inside list-disc space-y-2">
               <li>
                 薬の名前などが記載された詳細な書類： 剤名、剤型などが記された紙です。
@@ -120,7 +128,7 @@ export default function Home() {
               </li>
               <li>
                 あなたの診療カルテ（２枚）： 当日の日付と、１週間前の日付のものが重ねておいてありました。2枚合わせて盗む必要があります。
-                <img
+                <ZoomableImage
                   src="/images/_DSC2376.jpg"
                   alt="診療カルテの画像"
                   width={400}
@@ -139,7 +147,7 @@ export default function Home() {
             <p className="mb-4">
               <strong>2. 上記全てを神永に手渡すと、『USBメモリ型盗聴器』が渡される。（条件を満たせていない場合、『ボールペン型盗聴器』が渡されています）</strong>
             </p>
-            <img
+            <ZoomableImage
               src="/images/_DSC2808.jpg"
               alt="USBメモリ型盗聴器の画像"
               width={400}
@@ -153,8 +161,15 @@ export default function Home() {
               以上３点を満たせた場合のみ、盗薬成功となります。神永は薬に関する全ての情報と、他でもない大黒からの自白を元に、告発を行い、見事成功することになります。
             </p>
             <p className="mb-4">
-              この結末に辿り着いた場合のみ、50万円の小切手報酬を受け取ることとなるのでした。
+              この結末に辿り着いた場合のみ、50万円の小切手報酬を受け取ることとなり、それ以外の場合は45万円の小切手報酬を受け取ることとなりました。
             </p>
+            <ZoomableImage
+              src="/images/_DSC3988.jpg"
+              alt="小切手の画像"
+              width={400}
+              height={300}
+              className="my-6 rounded-lg w-full max-w-sm mx-auto"
+            />
             <p className="mb-4">
               それぞれのエンディングは『進行管理アカウント』に以下のメッセージを送ることで確認いただけます。気になる方はぜひご覧ください。
             </p>
@@ -175,16 +190,16 @@ export default function Home() {
             <p className="mb-4">
               ここより先は、大黒が語った部分と、LINEでの調査を組み合わせることで推測できる、登場人物たちの設定についての解説です。
             </p>
-            <h3 className="mb-4 text-xl text-indigo-700">大黒　挫折に囚われた男</h3>
+            <h3 className="mb-4 text-xl text-indigo-700">大黒 -挫折に囚われた男-</h3>
             <div className="flex flex-col md:flex-row gap-4 mb-4">
-              <img
+              <ZoomableImage
                 src="/images/_DSC3005.jpg"
                 alt="大黒の写真1"
                 width={400}
                 height={300}
                 className="my-6 rounded-lg w-full md:w-1/2"
               />
-              <img
+              <ZoomableImage
                 src="/images/_DSC3475.jpg"
                 alt="大黒の写真2"
                 width={400}
@@ -237,9 +252,9 @@ export default function Home() {
               ここでは公演の最中では明かされにくい設定についても紹介、解説していきます。
             </p>
 
-            <h3 className="mb-4 text-xl text-indigo-700">斉藤　仕事をこなす医者</h3>
+            <h3 className="mb-4 text-xl text-indigo-700">斉藤 -仕事をこなす医者-</h3>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
-              <img
+              <ZoomableImage
                 src="/images/_DSC1760.jpg"
                 alt="斉藤医師の写真"
                 width={400}
@@ -253,8 +268,8 @@ export default function Home() {
             <p className="mb-4">
               プレイヤーが薬の影響を受けることについては気の毒に思いつつも、罪悪感はありません。 作中キャラクターの中では最も虚無的な性格で、趣味も恋人もなく、ただ、辛いものが好きという設定だけがあります。
             </p>
-            <img
-              src="/images/_DSC1927.jpg"
+            <ZoomableImage
+              src="/images/_DSC1920.jpg"
               alt="斉藤医師の写真"
               width={400}
               height={300}
@@ -266,7 +281,7 @@ export default function Home() {
             <p className="mb-4">
               カルテを折っていた姿が見られたかもしれません。斉藤は大事な書類を二つ折りにして内側が見えないようにする癖があり、カルテに限らず、裏のスペースにあった書類も幾つかは二つ折りにされています。ややメタ的な示唆ではありますが、斉藤によって二つ折りにされていた紙だけがあなたにとって進行上重要な書類なのでした。
             </p>
-            <img
+            <ZoomableImage
               src="/images/_DSC1966.jpg"
               alt="斉藤医師が書類を折る様子"
               width={400}
@@ -274,9 +289,9 @@ export default function Home() {
               className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
             />
 
-            <h3 className="mb-4 text-xl text-indigo-700">神永　陰謀を追う記者</h3>
+            <h3 className="mb-4 text-xl text-indigo-700">神永 -陰謀を追う記者-</h3>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
-              <img
+              <ZoomableImage
                 src="/images/_DSC2254.jpg"
                 alt="神永記者の写真"
                 width={400}
@@ -299,11 +314,29 @@ export default function Home() {
             <p className="mb-4">
               頼めば神永の手帳を見せてもらうこともでき、あなたがこれから体験する治験の内容や、佐藤医師に協力が見込めそうなこと、ペットボトルにささやかな疑問をいだいていたことを知ることができます。ただし、これらを神永本人は忘却しているため、発言としては出てきません。
             </p>
-
-            <h3 className="mb-4 text-xl text-indigo-700">佐藤　葛藤する医師</h3>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
-              <img
-                src="/images/_DSC2436.jpg"
+              <ZoomableImage
+                src="/images/_DSC2263-2.jpg"
+                alt="神永記者の手帳"
+                width={400}
+                height={300}
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+              />
+              <ZoomableImage
+                src="/images/緑色.jpg"
+                alt="緑色の画像"
+                width={400}
+                height={300}
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+              />
+            </div>
+
+            <div className="mt-12 mb-8">
+              <h3 className="mb-4 text-xl text-indigo-700">佐藤 -葛藤する医師-</h3>
+            </div>
+            <div className="flex flex-col md:flex-row gap-4 justify-center">
+              <ZoomableImage
+                src="/images/satou.jpg"
                 alt="佐藤医師の写真"
                 width={400}
                 height={300}
@@ -314,15 +347,8 @@ export default function Home() {
               センターの医師の中で唯一、実験に人道的な観点から反対している人物です。しかし、それも心の中に止まっています。というのも、佐藤には重病人の妹がおり、クロノミライメディカル系列の病院に入院しているため、表立って反対を表明することができず、仕方なく従うことしかできないのでした。
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
-              <img
+              <ZoomableImage
                 src="/images/_DSC3824.jpg"
-                alt="佐藤医師の写真"
-                width={400}
-                height={300}
-                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
-              />
-              <img
-                src="/images/_DSC3850.jpg"
                 alt="佐藤医師の写真"
                 width={400}
                 height={300}
@@ -332,11 +358,27 @@ export default function Home() {
             <p className="mb-4">
               やや威圧的で冷たい印象の人物ですが、心根は非常に優しく、佐藤が席を外した際にロッカーなどを確認すると、家族の写真を大切に保管していることが分かります。
             </p>
+            <ZoomableImage
+                src="/images/_DSC3850.jpg"
+                alt="佐藤医師の写真"
+                width={400}
+                height={300}
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+              />
             <p className="mb-4">
               あなたが自身の立場をしっかりと表明し、協力を求めれば、非常に重要な情報を教えてくれることさえあるのでした。
             </p>
 
-            <h3 className="mb-4 text-xl text-indigo-700">清水　ブラックバイトギャンブラー</h3>
+            <h3 className="mb-4 text-xl text-indigo-700">清水 -ブラックバイトギャンブラー-</h3>
+            <div className="flex flex-col md:flex-row gap-4 justify-center">
+              <ZoomableImage
+                src="/images/shimizu_hello.jpg"
+                alt="清水の写真"
+                width={400}
+                height={300}
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+              />
+            </div>
             <p className="mb-4">
               あなたとほぼ同じ──『金が欲しい』という動機で働いているベテラン闇バイターです。
             </p>
@@ -361,6 +403,15 @@ export default function Home() {
             <p className="mb-4">
               ただし送り出す際にポロリと「また、よろしくお願いしますね」とボロを出しています。
             </p>
+            <div className="flex flex-col md:flex-row gap-4 justify-center">
+              <ZoomableImage
+                src="/images/shimizu_bye.jpg"
+                alt="清水の写真"
+                width={400}
+                height={300}
+                className="my-6 rounded-lg w-full md:w-1/2 mx-auto"
+              />
+            </div>
           </div>
 
           <div className="rounded-lg bg-white p-8 shadow-sm">
@@ -371,7 +422,7 @@ export default function Home() {
             </p>
             <h3 className="mb-4 text-xl text-indigo-700">・オブリビオン</h3>
             <div className="mb-6">
-              <img
+              <ZoomableImage
                 src="/images/oblivion.jpg"
                 alt="オブリビオンの画像"
                 width={400}
